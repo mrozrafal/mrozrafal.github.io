@@ -17,7 +17,7 @@
   <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
   <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
-  <link rel="manifest" href="manifest.json" />
+
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
 
@@ -27,87 +27,103 @@
 </head>
 
 <body class="body">
-  <article class="landing-page">
+  <main class="landing-page">
+    
 
-  <header class="person">
-   <div class="person__border"> <img class="person__photo"src="../assets/img/avatar.png" alt="Rafał avatar"></div>
-    <h1 class="person__header">Hey there! 👋 My name is Rafał and I’m an aspiring Frontend developer and a keen Star
-      Wars fan. </h1>
-    <p class="person__paragraph">You might be interested in checking the list of <a href="#skills" class="person__link">my skills</a>. Don’t forget to have a
-      glimpse at <a href="#projects" class="person__link">my projects</a>.
-      Currently
-      I’m looking for a new challenges so if you have one - <a href="#email" class="person__link">contact me</a> 😊</p>
+      <section class="person">
+        <div class="person__border"> <img class="person__photo" src="../assets/img/avatar.png" alt="Rafał avatar"></div>
+        <h1 class="person__header">Hey there! 👋 My name is Rafał and I’m an aspiring Frontend developer and a keen Star
+          Wars fan. </h1>
+        <p class="person__paragraph">You might be interested in checking the list of <a href="#skills"
+            class="person__link">my skills</a>. Don’t forget to have a
+          glimpse at <a href="#projects" class="person__link">my projects</a>.
+          Currently
+          I’m looking for a new challenges so if you have one - <a href="#email" class="person__link">contact me</a> 😊
+        </p>
 
-    <div class="person__email" id="email">rafalmroz30@gmail.com</div>
-  </header>
-  <main class="main">
-    <section class="skills" id="skills">
-      <h2 class="skills__header">My skills</h2>
-      <section class="working-konwledge">
-        <h3 class="working-konwledge__header">Working knowledge</h3>
-        <ul class="working-konwledge__list">
-          <li class="working-konwledge__list--element">Semantic HTML5</li>
-          <li class="working-konwledge__list--element">Flexbox</li>
-          <li class="working-konwledge__list--element">Markdown</li>
-          <li class="working-konwledge__list--element">JS: Local storage</li>
-          <li class="working-konwledge__list--element">FigmaCSS grid</li>
-          <li class="working-konwledge__list--element">Forms</li>
-          <li class="working-konwledge__list--element"> JS: DOM manipulations</li>
-          <li class="working-konwledge__list--element"> SASS</li>
+        <div class="person__email" ><a href="mailto:rafalmroz30@gmail.com">rafalmroz30@gmail.com </a></div>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="skills__header">My skills</h2>
+        <section class="working-konwledge">
+          <h3 class="working-konwledge__header">Working knowledge</h3>
+          <ul class="working-konwledge__list">
+            <li class="working-konwledge__list--element">Semantic HTML5</li>
+            <li class="working-konwledge__list--element">Flexbox</li>
+            <li class="working-konwledge__list--element">Markdown</li>
+            <li class="working-konwledge__list--element">JS: Local storage</li>
+            <li class="working-konwledge__list--element">FigmaCSS grid</li>
+            <li class="working-konwledge__list--element">Forms</li>
+            <li class="working-konwledge__list--element"> JS: DOM manipulations</li>
+            <li class="working-konwledge__list--element"> SASS</li>
+          </ul>
+        </section>
+        <section class="know-something">
+          <h3 class="know-something__header">Know something about</h3>
+          <ul class="know-something__list">
+            <li class="know-something__list--element">JavaScript ES6+ features</li>
+            <li class="know-something__list--element">CSS animations</li>
+            <li class="know-something__list--element">Working with API</li>
+            <li class="know-something__list--element">NPM Scripts</li>
+            <li class="know-something__list--element">Progressive web apps</li>
+            <li class="know-something__list--element"> Git</li>
+            <li class="know-something__list--element">Accessibility</li>
+          </ul>
+        </section>
+        <section class="want-to">
+          <h3 class="want-to__header">Want to learn</h3>
+          <ul class="want-to__list">
+            <li class="want-to__list--element">React JS</li>
+            <li class="want-to__list--element">Node.JS</li>
+            <li class="want-to__list--element"> Electron</li>
+            <li class="want-to__list--element"> Server side rendering</li>
+            <li class="want-to__list--element">Typescript</li>
+            <li class="want-to__list--element">Gatsby</li>
+            <li class="want-to__list--element">Websockets</li>
+
+          </ul>
+        </section>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="projects__title">Recent projects</h2>
+        <p class="projects__paragraph">I started my frontend developer path in 2018. Since then, I’ve built some
+          projects.
+          Here’s the list of the things I’ve done so far.</p>
+        <ul class="project">
+          <li class="project__item">
+            <img class="project__logo" src="#" alt="">
+            <h3 class="project__title">homepage</h3>
+            <p class="project__description">No description</p>
+            <a href="#">demo</a>
+            <a href="#">github</a>
+
+          </li>
+
         </ul>
       </section>
-      <section class="know-something">
-        <h3 class="know-something__header">Know something about</h3>
-        <ul class="know-something__list">
-          <li class="know-something__list--element">JavaScript ES6+ features</li>
-          <li class="know-something__list--element">CSS animations</li>
-          <li class="know-something__list--element">Working with API</li>
-          <li class="know-something__list--element">NPM Scripts</li>
-          <li class="know-something__list--element">Progressive web apps</li>
-          <li class="know-something__list--element"> Git</li>
-          <li class="know-something__list--element">Accessibility</li>
-        </ul>
-      </section>
-      <section class="want-to">
-        <h3 class="want-to__header">Want to learn</h3>
-        <ul class="want-to__list">
-          <li class="want-to__list--element">React JS</li>
-          <li class="want-to__list--element">Node.JS</li>
-          <li class="want-to__list--element"> Electron</li>
-          <li class="want-to__list--element"> Server side rendering</li>
-          <li class="want-to__list--element">Typescript</li>
-          <li class="want-to__list--element">Gatsby</li>
-          <li class="want-to__list--element">Websockets</li>
 
-        </ul>
-      </section>
-    </section>
-    <div class="projects" id="projects">
-      <h2 class="projects__header">Recent projects</h2>
-      <p class="project__paragraph">I started my frontend developer path in 2018. Since then, I’ve built some projects.
-        Here’s the list of the things I’ve done so far.</p>
-      <ul class="project__list project__list--js">
-        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
-            class="button__github button__github--js">Github</button></li>
-        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
-            class="button__github button__github--js">Github</button></li>
-        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
-            class="button__github button__github--js">Github</button></li>
-        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
-            class="button__github button__github--js">Github</button></li>
-      </ul>
-    </div>
-
-  </main>
-  <footer class="footer">
-    <h3 class="footer__header"></h3>
+ 
+  <footer class="footer" id="email">
+    <h2 class="footer__header">Contact me</h2>
     <p class="footer__paragraph">
       I’m open for new opportunities. If you have one for me we should talk!
     </p>
-    <p class="person__email">rafalmroz30@gmail.com</p>
-
+    
+    <ul class="social">
+      <li class="social__item"><a class="social__link" href="#"></a><img src="#" class="social__icon" alt="facebook."></li>
+    </ul>
+    <ul class="social">
+        <li class="social__item"><a class="social__link" href="#"></a><img src="#" class="social__icon" alt="github."></li>
+      </ul>
+      <ul class="social">
+          <li class="social__item"><a class="social__link" href="#"></a><img src="#" class="social__icon" alt="linkedin."></li>
+        </ul>
+    <a href="mailto:rafalmroz30@gmail.com" class="person__email">rafalmroz30@gmail.com</a>
   </footer>
-</article>
+</main>
+  
+
 
   <script src="js/main.js"></script>
 </body>
