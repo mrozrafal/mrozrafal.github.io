@@ -1,40 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
 
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Rafał Mróz landing page</title>
+  <meta name="description" content="Description" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <h1>Hello world - with simple PWA support!</h1>
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
 
-    <script src="js/main.js"></script>
-  </body>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <header class="person">
+   <div class="person__border"> <img class="person__photo"src="../assets/img/avatar.png" alt="Rafał avatar"></div>
+    <h1 class="person__header">Hey there! 👋 My name is Rafał and I’m an aspiring Frontend developer and a keen Star
+      Wars fan. </h1>
+    <p class="person__paragraph">You might be interested in checking the list of my skills. Don’t forget to have a
+      glimpse at my projects.
+      Currently
+      I’m looking for a new challenges so if you have one - contact me 😊</p>
+
+    <div class="person__email">rafalmroz30@gmail.com</div>
+  </header>
+  <main class="main">
+    <section class="skills">
+      <h2 class="skills__header">My skills</h2>
+      <section class="working-konwledge">
+        <h3 class="working-konwledge__header">Working knowledge</h3>
+        <ul class="working-konwledge__list">
+          <li class="working-konwledge__list--element">Semantic HTML5</li>
+          <li class="working-konwledge__list--element">Flexbox</li>
+          <li class="working-konwledge__list--element">Markdown</li>
+          <li class="working-konwledge__list--element">JS: Local storage</li>
+          <li class="working-konwledge__list--element">FigmaCSS grid</li>
+          <li class="working-konwledge__list--element">Forms</li>
+          <li class="working-konwledge__list--element"> JS: DOM manipulations</li>
+          <li class="working-konwledge__list--element"> SASS</li>
+        </ul>
+      </section>
+      <section class="know-something">
+        <h3 class="know-something__header">Know something about</h3>
+        <ul class="know-something__list">
+          <li class="know-something__list--element">JavaScript ES6+ features</li>
+          <li class="know-something__list--element">CSS animations</li>
+          <li class="know-something__list--element">Working with API</li>
+          <li class="know-something__list--element">NPM Scripts</li>
+          <li class="know-something__list--element">Progressive web apps</li>
+          <li class="know-something__list--element"> Git</li>
+          <li class="know-something__list--element">Accessibility</li>
+        </ul>
+      </section>
+      <section class="want-to">
+        <h3 class="want-to__header">Want to learn</h3>
+        <ul class="want-to__list">
+          <li class="want-to__list--element">React JS</li>
+          <li class="want-to__list--element">Node.JS</li>
+          <li class="want-to__list--element"> Electron</li>
+          <li class="want-to__list--element"> Server side rendering</li>
+          <li class="want-to__list--element">Typescript</li>
+          <li class="want-to__list--element">Gatsby</li>
+          <li class="want-to__list--element">Websockets</li>
+
+        </ul>
+      </section>
+    </section>
+    <div class="projects">
+      <h2 class="projects__header">Recent projects</h2>
+      <p class="project__paragraph">I started my frontend developer path in 2018. Since then, I’ve built some projects.
+        Here’s the list of the things I’ve done so far.</p>
+      <ul class="project__list project__list--js">
+        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
+            class="button__github button__github--js">Github</button></li>
+        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
+            class="button__github button__github--js">Github</button></li>
+        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
+            class="button__github button__github--js">Github</button></li>
+        <li class="project__list--element">homepage<button class="button__demo button__demo--js">Demo</button><button
+            class="button__github button__github--js">Github</button></li>
+      </ul>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <h3 class="footer__header"></h3>
+    <p class="footer__paragraph">
+      I’m open for new opportunities. If you have one for me we should talk!
+    </p>
+    <p class="person__email">rafalmroz30@gmail.com</p>
+
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>

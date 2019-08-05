@@ -1,9 +1,11 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext');
 
 
 html {
   box-sizing: border-box;
+  font-size:16px;
 }
 
 *, *:before, *:after {
@@ -11,6 +13,29 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+
+background: #fff;
+}
+
+.person{
+  &__photo{
+    margin:auto;
+    padding:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+   
+    border: 0.25rem solid #FFFFFF;
+    border-radius:50%;
+  }
+  &__border{
+    
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 0.25rem solid #CBD2D9;
+    border-radius:50%;
+    
+    z-index:2;
+  }
 }
