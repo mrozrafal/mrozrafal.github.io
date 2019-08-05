@@ -26,21 +26,22 @@
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
-<body>
+<body class="body">
+  <article class="landing-page">
 
   <header class="person">
    <div class="person__border"> <img class="person__photo"src="../assets/img/avatar.png" alt="Rafał avatar"></div>
     <h1 class="person__header">Hey there! 👋 My name is Rafał and I’m an aspiring Frontend developer and a keen Star
       Wars fan. </h1>
-    <p class="person__paragraph">You might be interested in checking the list of my skills. Don’t forget to have a
-      glimpse at my projects.
+    <p class="person__paragraph">You might be interested in checking the list of <a href="#skills" class="person__link">my skills</a>. Don’t forget to have a
+      glimpse at <a href="#projects" class="person__link">my projects</a>.
       Currently
-      I’m looking for a new challenges so if you have one - contact me 😊</p>
+      I’m looking for a new challenges so if you have one - <a href="#email" class="person__link">contact me</a> 😊</p>
 
-    <div class="person__email">rafalmroz30@gmail.com</div>
+    <div class="person__email" id="email">rafalmroz30@gmail.com</div>
   </header>
   <main class="main">
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2 class="skills__header">My skills</h2>
       <section class="working-konwledge">
         <h3 class="working-konwledge__header">Working knowledge</h3>
@@ -81,7 +82,7 @@
         </ul>
       </section>
     </section>
-    <div class="projects">
+    <div class="projects" id="projects">
       <h2 class="projects__header">Recent projects</h2>
       <p class="project__paragraph">I started my frontend developer path in 2018. Since then, I’ve built some projects.
         Here’s the list of the things I’ve done so far.</p>
@@ -106,6 +107,7 @@
     <p class="person__email">rafalmroz30@gmail.com</p>
 
   </footer>
+</article>
 
   <script src="js/main.js"></script>
 </body>
