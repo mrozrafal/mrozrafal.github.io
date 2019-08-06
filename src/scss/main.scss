@@ -15,10 +15,11 @@ html {
 
 body {
   background: #fff;
-}
-.body {
+  font-family: Poppins, sans-serif;
+  color:$reflexblue;
   border: 1rem solid $reflexblue;
 }
+
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -40,7 +41,7 @@ main {
   }
   &__email {
     color: #0593fb;
-    font-family: Poppins;
+
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
@@ -48,8 +49,8 @@ main {
     padding-top: 3.75rem;
   }
   &__header {
-    color: $reflexblue;
-    font-family: Poppins;
+ 
+
     font-style: normal;
     font-weight: 600;
     font-size: 2.5rem;
@@ -62,7 +63,6 @@ main {
     text-decoration: underline;
   }
   &__paragraph {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 1.25rem;
@@ -76,45 +76,39 @@ main {
   }
 }
 .skills {
-
   &__header {
-    color: $reflexblue;
-    font-family: Poppins;
+   
     font-style: normal;
     font-weight: 600;
-    font-size:  2.25rem;
-    line-height: 3rem;   
+    font-size: 2.25rem;
+    line-height: 3rem;
     margin-top: 12.5rem;
-    
   }
 }
 .working-konwledge,
 .know-something,
 .want-to {
-  display:flex;
-  width:50vw;
+  display: flex;
+  width: 50vw;
   justify-content: flex-start;
   margin-top: 9.75rem;
 
   &__header {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
-    line-height:2.75rem;
-    color: $reflexblue;
-    grid-area:header;
-    width:30rem;
-    
+    line-height: 2.75rem;
+  
+    grid-area: header;
+    width: 30rem;
   }
-  &__list{
-display:grid;
-grid-template-columns: 1fr 1fr;
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 2.5rem;
     width: 15rem;
-    list-style:none;
- 
+    list-style: none;
   }
 }
