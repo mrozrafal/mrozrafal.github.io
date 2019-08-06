@@ -1,10 +1,12 @@
 @import "_normalize";
 @import "_variables";
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext");
-
+@import "modules/person.scss";
 html {
   box-sizing: border-box;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 *,
@@ -29,52 +31,10 @@ body {
 }
 main {
   margin-top: 12.5rem;
+
 }
 
-.person {
-  width: 48.75rem;
-  &__border {
-    border: 0.25rem solid #cbd2d9;
-    border-radius: 50%;
-    height: 7.5rem;
-    width: 7.5rem;
-  }
-  &__email {
-    color: #0593fb;
 
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 2rem;
-    padding-top: 3.75rem;
-  }
-  &__header {
- 
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    margin-top: 2rem;
-  }
-  &__link {
-    color: #0593fb;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  &__paragraph {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 2.25rem;
-    margin-top: 1rem;
-  }
-  &__photo {
-    border: 0.25rem solid #ffffff;
-    border-radius: 50%;
-    width: 7rem;
-  }
-}
 .skills {
   &__header {
    

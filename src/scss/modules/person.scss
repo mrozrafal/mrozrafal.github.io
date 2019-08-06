@@ -1,0 +1,49 @@
+.person {
+  max-width: 1184px;
+  padding: 112 0 200;
+  margin: 0;
+  &__border {
+    border: 4px solid #cbd2d9;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  &__email {
+    color: $blue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 60px 0 8px;
+    text-decoration: none;
+    border-bottom: 2px solid $blue;
+    max-width: 260px;
+ 
+  }
+  &__header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    max-width: 780px;
+    margin: 2rem 0 1rem;
+  }
+  &__link {
+    color: #0593fb;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  &__paragraph {
+    color: $gray;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    max-width: 680px;
+  }
+  &__photo {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    width: 112px;
+  }
+}
