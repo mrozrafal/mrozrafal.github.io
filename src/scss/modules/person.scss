@@ -1,6 +1,6 @@
 .person {
   max-width: 1216px;
-  padding: 112px 16px 200px;
+  padding: 7rem 16px 12.5rem;
   margin: 0 auto;
   &__border {
     border: 4px solid #cbd2d9;
@@ -14,12 +14,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 2rem;
-    padding: 60px 0 8px;
+    padding: 0 0 8px;
     text-decoration: none;
     border-bottom: 2px solid $blue;
     max-width: 260px;
-   
- 
+    @media (max-width: $mobile) {
+    }
   }
   &__header {
     font-style: normal;
@@ -41,6 +41,9 @@
     font-size: 1.25rem;
     line-height: 2.25rem;
     max-width: 680px;
+    @media (max-width: $mobile) {
+      margin-bottom: 40px;
+    }
   }
   &__photo {
     border: 4px solid #ffffff;

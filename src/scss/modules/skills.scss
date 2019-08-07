@@ -1,26 +1,31 @@
 .skills {
-    max-width: 1216px;
-    padding: 0 16px;
-    margin: 0 auto;
-    padding-bottom: 104px;
+  max-width: 1216px;
+  padding: 0 16px;
+  margin: 0 auto;
+  padding-bottom: 104px;
   &__header {
-    
     font-style: normal;
     font-weight: 600;
     font-size: 2.25rem;
     line-height: 3rem;
     margin: 1rem 0 4rem 0;
     border-bottom: 2px solid $lightgray;
+    @media(max-width: $mobile){
+      text-align:center;    }
   }
 }
+
 
 .working-konwledge,
 .know-something,
 .want-to {
-  display: grid;  
+  display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 4rem 0;
-  
+  column-gap: .5rem;
+  @media (max-width: 999px){
+    grid-template-columns: 1fr;
+  }
 
   &__header {
     font-style: normal;
@@ -28,6 +33,7 @@
     font-size: 2rem;
     line-height: 2.75rem;
   
+
     width: 30rem;
     margin: 0;
     &::before {
@@ -45,26 +51,30 @@
     grid-template-columns: 1fr 1fr;
     font-weight: 400;
     font-size: 1.125rem;
-   line-height: 2.5rem;
+    line-height: 2.5rem;
     list-style: none;
-    padding-top:6px;
-    column-gap:24px;
-    &--element{
-        padding: 0 auto; 
-        color:$gray;
-        padding-left:22px;
-        position:relative;
-        &::before{
-            position: absolute;
-            top:10px;
-            left: -12px;
-            padding-right:12px;
-            content: '';
-            width:18px;
-            height:18px;
-            display:block;
-            background: url('../assets/img/check-circle-green.svg');
-        }
+    padding-top: 6px;
+    column-gap: 24px;
+    @media (max-width: $mobile) {
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+ 
+    &--element {
+      padding: 0 auto;
+      color: $gray;
+      padding-left: 22px;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 10px;
+        left: -12px;
+        padding-right: 12px;
+        content: "";
+        width: 18px;
+        height: 18px;
+        display: block;
+        background: url("../assets/img/check-circle-green.svg");
+      }
     }
   }
 }
@@ -72,10 +82,10 @@
   &__header::before {
     background: $violet-line;
   }
-  &__list{
-      &--element::before{
-        background: url('../assets/img/check-circle-violet.svg');
-      }
+  &__list {
+    &--element::before {
+      background: url("../assets/img/check-circle-violet.svg");
+    }
   }
 }
 
@@ -83,9 +93,9 @@
   &__header::before {
     background: $blue-line;
   }
-  &__list{
-    &--element::before{
-      background: url('../assets/img/check-circle-blue.svg');
+  &__list {
+    &--element::before {
+      background: url("../assets/img/check-circle-blue.svg");
     }
-}
+  }
 }

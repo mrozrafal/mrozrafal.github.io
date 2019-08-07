@@ -13,6 +13,7 @@ html {
   scroll-behavior: smooth;
   @media(max-width: $mobile){
     font-size:12px;
+    overflow-x: hidden;
   }
 }
 
@@ -27,5 +28,9 @@ body {
   font-family: Poppins, sans-serif;
   color:$reflexblue;
   border: 1rem solid $reflexblue;
+  @media(max-width: $mobile){
+    border: none;
+    
+  }
 }
 
