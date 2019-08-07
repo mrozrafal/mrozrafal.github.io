@@ -1,0 +1,53 @@
+.footer{
+    
+        color:#fff;
+    background: $reflexblue;
+   &__container{
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 0 0 8rem;
+   
+   }
+    &__header{
+        
+        padding:8rem 0 1rem;
+        
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        &::before {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            border-radius: 8px;
+            background: $blue-line;
+            margin-bottom: 1.5rem;
+            
+        }
+    }
+    &__paragraph{
+        padding:0 0 1.5rem;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        max-width: 580px;
+        margin:0;
+    }
+}
+.social{
+    padding: 0 0 3rem;
+    display:inline-block;
+    list-style-type: none;
+    margin: 0;
+    & + & {
+        margin-left: 1.5rem; 
+        }  
+ 
+}
+.person__email--footer{
+    display:flex;
+    padding: 0;
+}

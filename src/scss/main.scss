@@ -4,6 +4,7 @@
 @import "modules/person.scss";
 @import "modules/skills.scss";
 @import "modules/projects.scss";
+@import "modules/footer.scss";
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -25,10 +26,3 @@ body {
   border: 1rem solid $reflexblue;
 }
 
-// .landing-page {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   margin: 8rem auto 0;
-//   width: 60rem;
-// }
