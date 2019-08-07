@@ -3,7 +3,8 @@
   padding: 8rem 0;
   &__container {
     margin: 0 auto;
-    max-width: 1184px;
+    max-width: 1200px;
+    padding: 0 8px;
   }
   &__header {
     padding: 1rem 0;
@@ -12,7 +13,8 @@
     font-size: 2.25rem;
     line-height: 3rem;
     margin: 0 auto;
-    max-width: 1184px;
+    max-width: 1216px;
+    padding: 0 16px;
   }
   &__paragraph {
     color: $gray;
@@ -63,8 +65,8 @@
   &__link {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: $blue;
     text-decoration: none;
     display: inline-flex;
@@ -77,7 +79,7 @@
         content: "";
         position: absolute;
         left: -26px;
-        height: 32px;
+        height: 2rem;
         width: 2px;
         background: $line-gray;
         display: block;

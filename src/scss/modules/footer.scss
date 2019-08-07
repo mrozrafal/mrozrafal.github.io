@@ -3,13 +3,13 @@
         color:#fff;
     background: $reflexblue;
    &__container{
-    max-width: 1184px;
+    max-width: 1216px;
     margin: 0 auto;
-    padding: 0 0 8rem;
+    padding: 0 16px 8rem;
    
    }
     &__header{
-        
+        margin:0;
         padding:8rem 0 1rem;
         
         font-style: normal;
