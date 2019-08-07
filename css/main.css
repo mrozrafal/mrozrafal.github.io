@@ -551,9 +551,9 @@ template {
       margin-right: 8px;
       width: 24px;
       height: 24px;
-      background: url("../assets/img/demo-icon.svg") center center no-repeat; }
+      background: url("assets/img/demo-icon.svg") center center no-repeat; }
     .project__link--code::before {
-      background: url("../assets/img/code-icon.svg") center center no-repeat; }
+      background: url("assets/img/code-icon.svg") center center no-repeat; }
   .project__paragraph {
     font-style: normal;
     font-weight: 300;
