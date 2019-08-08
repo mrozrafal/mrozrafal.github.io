@@ -25,9 +25,11 @@ list.innerHTML+= `
             
             
            
-            ${homepage ? <a class="project__link project__link--demo" href="${homepage}">demo</a> : 'nothing' }
+            ${
+              homepage ? `<a class="project__link project__link--demo" target="blank" rel="nofollow noreferrer" href="${homepage}">demo</a>` : '' 
+            }
             
-            <a class="project__link project__link--code" href="${html_url}">github</a>
+            <a class="project__link project__link--code" target="blank" rel="nofollow noreferrer"  href="${html_url}">github</a>
           </div>
           </li>
 `;
